@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="test@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.4">
+    <root id="1"/>
+    <schema id="2" parent="1" name="test">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="admin"/>
+    <schema id="4" parent="1" name="crawler"/>
+    <schema id="5" parent="1" name="db_blockdata_server"/>
+    <schema id="6" parent="1" name="db_datasources"/>
+    <schema id="7" parent="1" name="db_test"/>
+    <schema id="8" parent="1" name="demo"/>
+    <schema id="9" parent="1" name="e3mall-32"/>
+    <schema id="10" parent="1" name="geekcattle"/>
+    <schema id="11" parent="1" name="guns"/>
+    <schema id="12" parent="1" name="guns_flowable"/>
+    <schema id="13" parent="1" name="guns_rest"/>
+    <schema id="14" parent="1" name="housedb"/>
+    <schema id="15" parent="1" name="information_schema"/>
+    <schema id="16" parent="1" name="jpa"/>
+    <schema id="17" parent="1" name="mldn"/>
+    <schema id="18" parent="1" name="music"/>
+    <schema id="19" parent="1" name="mybatis"/>
+    <schema id="20" parent="1" name="mysql"/>
+    <schema id="21" parent="1" name="mytest"/>
+    <schema id="22" parent="1" name="performance_schema"/>
+    <schema id="23" parent="1" name="QianLv_BD"/>
+    <schema id="24" parent="1" name="qungongwei"/>
+    <schema id="25" parent="1" name="sell"/>
+    <schema id="26" parent="1" name="shengtaiwei"/>
+    <schema id="27" parent="1" name="springbootredis"/>
+    <schema id="28" parent="1" name="sys"/>
+    <schema id="29" parent="1" name="test_data"/>
+    <schema id="30" parent="1" name="test_dataresource"/>
+    <schema id="31" parent="1" name="ThePublicSecurity"/>
+    <schema id="32" parent="1" name="user"/>
+    <schema id="33" parent="1" name="xxl-job"/>
+    <schema id="34" parent="1" name="zhujinjun"/>
+    <table id="35" parent="2" name="t_student"/>
+    <table id="36" parent="2" name="test_user"/>
+    <table id="37" parent="2" name="test_user_role"/>
+    <column id="38" parent="35" name="id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="39" parent="35" name="address">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="40" parent="35" name="age">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="41" parent="35" name="name">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="42" parent="36" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="43" parent="36" name="username">
+      <Position>2</Position>
+      <DataType>varchar(20)|0</DataType>
+    </column>
+    <column id="44" parent="36" name="password">
+      <Position>3</Position>
+      <DataType>varchar(20)|0</DataType>
+    </column>
+    <key id="45" parent="36" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="46" parent="37" name="user_name">
+      <Position>1</Position>
+      <DataType>varchar(64)|0</DataType>
+    </column>
+    <column id="47" parent="37" name="role_name">
+      <Position>2</Position>
+      <DataType>varchar(32)|0</DataType>
+    </column>
+  </database-model>
+</dataSource>
